@@ -76,12 +76,14 @@
         <section>
           <h3>Meet your mentee</h3>
           <p>Steps to be done before accepting candidate</p>
-          <ul>
-            <li>Conduct an interview (if you did not)</li>
-            <li>Determine level of skills and way of thinking</li>
-            <li>Determine motivation level</li>
-            <li>Determine the character of the person</li>
-          </ul>
+          <ol>
+            <li class="fragment">Conduct an interview (if you did not)</li>
+            <li class="fragment">
+              Determine level of skills and way of thinking
+            </li>
+            <li class="fragment">Determine motivation level</li>
+            <li class="fragment">Determine the character of the person</li>
+          </ol>
         </section>
         <section data-background="assets/morpheus.jpg">
           <h3>Is this person right for you?</h3>
@@ -226,6 +228,7 @@
       // - https://github.com/hakimel/reveal.js#configuration
       // - https://github.com/hakimel/reveal.js#dependencies
       Reveal.initialize({
+        pdfSeparateFragments: false,
         dependencies: [
           { src: "plugin/markdown/marked.js" },
           { src: "plugin/markdown/markdown.js" },
